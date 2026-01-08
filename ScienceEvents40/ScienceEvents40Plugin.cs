@@ -71,7 +71,7 @@ public partial class ScienceEvents40Plugin : BaseUnityPlugin
         var sw = Stopwatch.StartNew();
         
         // Initialization logic here
-        Logger.LogInfo($"Subscribing to 40 events at {sw.ElapsedMilliseconds} ms" );
+        Logger.LogInfo($"Subscribing to 40 events at {sw.Elapsed.TotalMilliseconds} ms" );
 
         var HookOne = new Hook(typeof(PlayerData).GetMethod("CacheSavedFleas", BindingFlagsAll), typeof(ScienceEvents40Plugin).GetMethod("HookOne", BindingFlags.Public | BindingFlags.Static));
         var HookTwo = new Hook(typeof(HeroController).GetMethod("TempStoreCurrency", BindingFlagsAll), typeof(ScienceEvents40Plugin).GetMethod("HookTwo", BindingFlags.Public | BindingFlags.Static));
@@ -115,7 +115,7 @@ public partial class ScienceEvents40Plugin : BaseUnityPlugin
         var HookForty = new Hook(typeof(MateriumItem).GetMethod("GetCollectionDesc", BindingFlagsAll), typeof(ScienceEvents40Plugin).GetMethod("HookForty", BindingFlags.Public | BindingFlags.Static));
 
         sw.Stop();
-        Logger.LogInfo($"Finished subscribing to 40 events at {sw.ElapsedMilliseconds} ms" );
+        Logger.LogInfo($"Finished subscribing to 40 events at {sw.Elapsed.TotalMilliseconds} ms" );
         Logger.LogInfo($"Plugin {Name} ({Id}) has loaded!");
     }
     public static void HookOne(Action<PlayerData> orig, PlayerData self) { orig(self); }

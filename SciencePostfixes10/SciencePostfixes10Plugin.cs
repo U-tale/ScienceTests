@@ -22,10 +22,10 @@ public partial class SciencePostfixes10Plugin : BaseUnityPlugin
     {
         var harmony = new Harmony("Science10Postfixes");
         var sw = Stopwatch.StartNew();
-        Logger.LogInfo($"Making 10 postfixes at {sw.ElapsedMilliseconds} ms");
+        Logger.LogInfo($"Making 10 postfixes at {sw.Elapsed.TotalMilliseconds} ms");
         harmony.PatchAll();
         sw.Stop();
-        Logger.LogInfo($"Finished making 10 postfixes at {sw.ElapsedMilliseconds} ms");
+        Logger.LogInfo($"Finished making 10 postfixes at {sw.Elapsed.TotalMilliseconds} ms");
     }
 
 }
