@@ -21,10 +21,10 @@ public partial class SciencePrefixes40Plugin : BaseUnityPlugin
     {
         var harmony = new Harmony("Science40Prefixes");
         var sw = Stopwatch.StartNew();
-        Logger.LogInfo($"Making 40 prefixes at {sw.ElapsedMilliseconds} ms");
+        Logger.LogInfo($"Making 40 prefixes at {sw.Elapsed.TotalMilliseconds} ms");
         harmony.PatchAll();
         sw.Stop(); 
-        Logger.LogInfo($"Finished making 40 prefixes at {sw.ElapsedMilliseconds} ms");
+        Logger.LogInfo($"Finished making 40 prefixes at {sw.Elapsed.TotalMilliseconds} ms");
     }
 
 }

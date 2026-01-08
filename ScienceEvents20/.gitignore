@@ -486,3 +486,10 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+#debug folder
+debug/
+
+#readds important files for release
+!*.dll
+!*.pdb
