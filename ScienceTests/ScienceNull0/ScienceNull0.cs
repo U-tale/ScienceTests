@@ -7,7 +7,7 @@ using HarmonyLib;
 namespace Null0;
 
 // TODO - adjust the plugin guid as needed
-[BepInAutoPlugin(id: "io.github.u-tale.null0")]
+[BepInPlugin("Null0", "io.github.u-tale.null0", "0.1.0")]
 public partial class Null0Plugin : BaseUnityPlugin
 {
     private void Awake()
