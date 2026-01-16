@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\hunte\\OneDrive\\Documents\\Desktop\\SilkyMods\\SilksongTests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hunte\\OneDrive\\Documents\\Desktop\\SilkyMods\\SilksongTests\\ScienceTests\\ScienceEvents10\\ScienceEvents10Plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ScienceTests\\ScienceEvents10\\ScienceEvents10Plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hunte\\OneDrive\\Documents\\Desktop\\SilkyMods\\SilksongTests\\ScienceTests\\ScienceNull0\\ScienceNull0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ScienceTests\\ScienceNull0\\ScienceNull0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,31 +25,14 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScienceEvents10Plugin.cs",
-              "DocumentMoniker": "C:\\Users\\hunte\\OneDrive\\Documents\\Desktop\\SilkyMods\\SilksongTests\\ScienceTests\\ScienceEvents10\\ScienceEvents10Plugin.cs",
-              "RelativeDocumentMoniker": "ScienceTests\\ScienceEvents10\\ScienceEvents10Plugin.cs",
-              "ToolTip": "C:\\Users\\hunte\\OneDrive\\Documents\\Desktop\\SilkyMods\\SilksongTests\\ScienceTests\\ScienceEvents10\\ScienceEvents10Plugin.cs",
-              "RelativeToolTip": "ScienceTests\\ScienceEvents10\\ScienceEvents10Plugin.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T02:05:04.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ScienceNull0.cs",
               "DocumentMoniker": "C:\\Users\\hunte\\OneDrive\\Documents\\Desktop\\SilkyMods\\SilksongTests\\ScienceTests\\ScienceNull0\\ScienceNull0.cs",
               "RelativeDocumentMoniker": "ScienceTests\\ScienceNull0\\ScienceNull0.cs",
               "ToolTip": "C:\\Users\\hunte\\OneDrive\\Documents\\Desktop\\SilkyMods\\SilksongTests\\ScienceTests\\ScienceNull0\\ScienceNull0.cs",
               "RelativeToolTip": "ScienceTests\\ScienceNull0\\ScienceNull0.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T01:02:54.44Z",
               "EditorCaption": ""

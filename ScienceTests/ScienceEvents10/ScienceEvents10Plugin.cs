@@ -36,8 +36,7 @@ public partial class ScienceEvents10Plugin : BaseUnityPlugin
         BindingFlagsAll |= BindingFlags.Static;
         BindingFlagsAll |= BindingFlags.Instance;
 
-        Logger.LogInfo(typeof(HeroController).ToString());
-        Logger.LogInfo(typeof(HeroController).GetMethod("SetStartWithAttack", BindingFlagsAll));
+
 
         var sw = Stopwatch.StartNew();
 

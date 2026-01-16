@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\ScienceTests",
+    "\\ScienceTests\\ScienceEvents10",
     "\\ScienceTests\\ScienceNull0"
   ],
-  "SelectedNode": "\\ScienceTests\\ScienceNull0\\ScienceNull0.cs",
+  "SelectedNode": "\\ScienceTests\\ScienceEvents10\\ScienceEvents10Plugin.cs",
   "PreviewInSolutionExplorer": false
 }
